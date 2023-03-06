@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid:"principal secundario" ;
+    font-family: 'Roboto';
+}
+.principal{
+    grid-area: principal;
+    display: flex;
+    flex-direction: column;      
+}
+.principal .video-principal{
+    background-color: rgb(65, 65, 65);
+    width: 543px;
+    height: 217px;
+}
+.principal h1{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 12px 0px 7px;
+}
+.principal .visualizacao{
+    margin-bottom: 9px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.principal p{
+    height: 76px;
+    width: 538px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.secundario{
+    margin-left: 20px;
+    grid-area: secundario;
+}
+.secundario .propaganda{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: grey;
+    width: 270px;
+    height: 56px;
+}
+.propaganda p{
+    font-weight: 300;
+    font-size: 11px;
+}
+.video-sugestao{
+    background-color: gray;
+    width: 101px;
+    height: 71px;
+}
+.sugestao{
+    display: grid;
+   grid-template-columns:repeat(2,auto);
+    margin-bottom: 20px;
+}
+.sugestao h2 {
+    font-weight: 700;
+    font-size: 14px;
+}
+.sugestao p {
+    margin: 5px;
+    font-weight: 300;
+    font-size: 11px;
+}
